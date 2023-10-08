@@ -56,86 +56,26 @@ const { Sider } = Layout;
 
     const clearDataKingdom = () => {
 		setKingdom();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-            kingdom_id: kingdom_id,
-            phylum_id: phylum_id,
-            class_id: class_id,
-            order_id: order_id,
-            family_id: family_id,
-            genus_id: genus_id,
-		}));
 	}
     
     const clearDataPhylum = () => {
 		setPhylum();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-            kingdom_id: kingdom_id,
-            phylum_id: phylum_id,
-            class_id: class_id,
-            order_id: order_id,
-            family_id: family_id,
-            genus_id: genus_id,
-		}));
 	}
 
     const clearDataClass = () => {
 		setClass();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-		}));
 	}
 
     const clearDataOrder = () => {
 		setOrder();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-            kingdom_id: kingdom_id,
-            phylum_id: phylum_id,
-            class_id: class_id,
-            order_id: order_id,
-            family_id: family_id,
-            genus_id: genus_id,
-		}));
 	}
 
     const clearDataFamily = () => {
 		setFamily();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-            kingdom_id: kingdom_id,
-            phylum_id: phylum_id,
-            class_id: class_id,
-            order_id: order_id,
-            family_id: family_id,
-            genus_id: genus_id,
-		}));
 	}
     
     const clearDataGenus = () => {
 		setGenus();
-		dispatch(getSpeciesAction({
-			page: pagination.page,
-			itemsPerPage: pagination.perpage,
-			search: searchInput,
-            kingdom_id: kingdom_id,
-            phylum_id: phylum_id,
-            class_id: class_id,
-            order_id: order_id,
-            family_id: family_id,
-            genus_id: genus_id,
-		}));
 	}
     const alertNoti=(
         <Space className='alertNotify'>
